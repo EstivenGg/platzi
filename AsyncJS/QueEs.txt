@@ -1,0 +1,30 @@
+Los lenguajes son sincronos es decir se ejecuta tarea, por tarea.
+Js se define como un lengiaje de programacion sincrono con un solo hilo de trabajo
+Es no bloqueante con un bucle de eventos 
+
+Single threaded:
+Js procesa en una sola tarea
+
+ Bloqueante: Una llamada u operación bloqueante no devuelve el control a la aplicación hasta que se ha completado. Por tanto el thread queda bloqueado en estado de espera.
+
+• 🚿 No bloqueante: Una tarea no bloqueante se devuelve inmediatamente con independencia del resultado. Si se completó, devuelve los datos. Si no, un error.
+
+Sincrono:
+Las se ejecutan de forma secuencial, se debe esperar a que ue se complete para continuar con la sigueinte tarea 
+
+Asincrono:
+Las tareas se pueden realizar mas tarde, lo que hace posibnle una respuesta sea procesada en diferido
+
+concurrencia en Js
+EventLoop es el bucle de eventos es un patron de diseño que espera y distribuye eventos o mensajes en un programa
+
+CALLBACKS
+Una funcion que es pasada como argumento de otra funcion que sera invocada segun el caso 
+
+PROMESAS 
+Funcion no bloqueante que es asincrona y lo cual puede retornar un valor ahora, en el futuro o nunca
+
+Async/Await
+Permite estructurar una funcionar asincrona sin bloqueo de una manerra similara  una funcion sincorna ordinaria
+
+Js es un programa asincrono y no bloqueante, con un bluce de eventos (Concurrencia) implementado con un unico hilo para sus interfaces de i/o

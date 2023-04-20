@@ -1,0 +1,18 @@
+EVENTLOOP
+Bucle de eventos que es un patron de diseño que espera y distribuye eventos o mensajes en un programa
+
+Memory HEAP
+Los objetos varibales  o elementos son asginados a un espacio de memoria a la espera de ser utilizados
+
+CallStack
+Apila de forma organziada las instrucciones de nuestro programa.
+
+TASK QUEUE
+Cola de tareas, se maneja la concurrencia,se agregan las tareas que ya estan listas para pasar al Stack. El stack debe de esatr vacio
+
+Micro TASK QUEUE
+Las promesas tiene otra forma de ejecutarse y una prioridad superior
+
+WebApis
+
+Js del lado del cliente: setTimeout, XMLHttpRequest, File Reader, DOM.
